@@ -53,7 +53,8 @@ img:hover {
 }
 .column img {
 
-horizontal-align: middle;
+  float: right;
+    width: 300px;
 
 }
 
