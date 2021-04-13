@@ -48,7 +48,9 @@ img:hover {
 
 .column  {
   justify-content: center;
-
+  flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
 }
 
 .large {
