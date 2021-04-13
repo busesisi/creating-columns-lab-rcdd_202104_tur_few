@@ -52,6 +52,11 @@ img:hover {
    max-width: 25%;
    padding: 0 4px;
 }
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
 
 .large {
   width: 100%;
