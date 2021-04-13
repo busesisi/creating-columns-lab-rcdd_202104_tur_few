@@ -47,11 +47,15 @@ img:hover {
   background-color: #dd4444;
 }
 
-.column  {
-
+.column {
 width: 48%;
+display: inline-block;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  width: 50%;
+  text-align: center;
+ }
 
-}
 .column img {
 
 
